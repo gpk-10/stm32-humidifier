@@ -1,0 +1,67 @@
+# MDK-ARM 构建输出
+MDK-ARM/demo01/*.axf
+MDK-ARM/demo01/*.hex
+MDK-ARM/demo01/*.map
+MDK-ARM/demo01/*.lnp
+MDK-ARM/demo01/*.o
+MDK-ARM/demo01/*.d
+MDK-ARM/demo01/*.crf
+MDK-ARM/demo01/*.axf
+MDK-ARM/demo01/*.htm
+MDK-ARM/demo01/*.dep
+MDK-ARM/demo01/*.lst
+MDK-ARM/demo01/*.obj
+MDK-ARM/demo01/*.build_log.htm
+MDK-ARM/list/
+MDK-ARM/obj/
+MDK-ARM/RTE/
+
+# Keil 项目文件
+*.uvguix.*
+*.bak
+*.ddk
+*.edk
+*.lst
+*.lnp
+*.mpf
+*.mpj
+*.omf
+*.opt
+*.plg
+*.rpt
+*.tmp
+
+# EIDE 构建输出
+MDK-ARM/.eide/build/
+MDK-ARM/.eide/*.log
+
+# 编译器生成的文件
+*.o
+*.obj
+*.elf
+*.bin
+*.map
+*.list
+*.sym
+*.d
+*.su
+
+# 调试文件
+*.dbgconf
+*.ini
+JLinkLog.txt
+JLinkSettings.ini
+
+# 备份文件
+*~
+*.orig
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 配置 (可选保留)
+# .vscode/
+# .idea/
